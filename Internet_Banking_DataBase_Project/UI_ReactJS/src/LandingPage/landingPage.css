@@ -1,0 +1,73 @@
+  .queriesTab {
+    display:flex
+  }
+
+  .query-label {
+    font-size: 16.8px;
+    background-color: #646464;
+    padding: 10px 50px;
+    width: 17%;
+    justify-content: center;
+    margin: 5px 15px;
+    color: white;
+    display: flex;
+    /* border: 2px solid white; */
+  }
+  .query-label:hover {
+    cursor: pointer;
+    color: white;
+    background-color:green;
+  }
+
+  .active{
+    background-color: green;
+    color: white;
+  }
+
+  .not-active {
+    background-color:red;
+    color: white;
+  }
+
+  .query-statement {
+    width: 100%;
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 100%;
+    font-size: 26px;
+  };
+
+  section {
+    /* position: fixed;
+    top: 10%;
+    left: 10%; */
+    padding-top: 100px!important;
+  }
+
+  .short-description p {   
+    /* border: 2px solid white;
+    border-radius: 2px; */
+    font-size: 23px;
+    position: absolute;
+    top: 15%;
+    left: 19%;
+    color:white;
+  }
+
+  .short-description button {
+    margin-left:100px;
+  }
+  .send-button {
+    font-size: 20px;
+    position: fixed;
+    top: 10%;
+    left: 40%;
+  }
+
+ /* overriding material ui table */
+  .makeStyles-root-32{
+   margin-left: 19.5%!important;
+   margin-top: -34% !important;
+  
+ }
